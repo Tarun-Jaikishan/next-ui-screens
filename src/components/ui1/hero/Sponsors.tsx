@@ -14,13 +14,27 @@ export default function Sponsors() {
     <div className="mt-5 flex justify-center">
       <Swiper
         modules={[Navigation]}
-        spaceBetween={50}
+        spaceBetween={75}
         slidesPerView={1}
         grabCursor
         loop
         navigation
-        className="w-3/4 lg:1/2"
+        breakpoints={{
+          768: {
+            slidesPerView: 3,
+          },
+          1024: {
+            slidesPerView: 5,
+          },
+        }}
+        className="w-3/4"
       >
+        <SwiperSlide>
+          <Image src={client4} alt="Sponsor" className="mx-auto" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={client4} alt="Sponsor" className="mx-auto" />
+        </SwiperSlide>
         <SwiperSlide>
           <Image src={client4} alt="Sponsor" className="mx-auto" />
         </SwiperSlide>
