@@ -36,7 +36,7 @@ export default function Navbar() {
       <div className="flex items-center gap-5">
         <button
           type="button"
-          className="hidden sm:flex items-center gap-2 text-sm bg-primary border border-primary px-4 py-2 rounded-lg hover:bg-white duration-500"
+          className="hidden sm:flex items-center gap-2 text-sm bg-primary border border-primary px-4 py-2 rounded-lg lg:hover:bg-white duration-500"
         >
           Get A Quote <FaAnglesRight className="text-xs" />
         </button>

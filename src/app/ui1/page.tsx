@@ -1,3 +1,9 @@
+import Hero from "@/components/ui1/Hero";
+
 export default function page() {
-  return <div>UI1</div>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }
