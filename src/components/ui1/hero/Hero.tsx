@@ -6,6 +6,7 @@ import { IoIosStar } from "react-icons/io";
 
 import author1 from "@/assets/ui1/images/hero/author1.jpg";
 import hero_img1 from "@/assets/ui1/images/hero/hero_img1.jpg";
+import Sponsors from "./Sponsors";
 
 export default function Hero() {
   return (
@@ -84,7 +85,7 @@ export default function Hero() {
       </div>
 
       {/* Trusted By and Sponsors */}
-      <div className="mt-5 rounded-xl p-2">
+      <div className="mt-5 mb-10 rounded-xl p-2">
         <div>
           <Image src={hero_img1} alt="Image" className="w-full rounded-xl" />
         </div>
@@ -93,7 +94,7 @@ export default function Hero() {
           Trusted by thousands of companies across 50+ countries
         </p>
 
-        <div></div>
+        <Sponsors />
       </div>
 
       <br />
