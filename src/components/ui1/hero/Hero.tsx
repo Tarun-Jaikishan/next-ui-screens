@@ -18,7 +18,7 @@ import Sponsors from "./Sponsors";
 
 export default function Hero() {
   return (
-    <div
+    <section
       className={`xl:pt-28 bg-[url('@/assets/ui1/images/hero/hero-bg1.jpg')] bg-cover bg-no-repeat rounded-b-2xl`}
     >
       <div className="xl:flex xl:items-center xl:gap-40">
@@ -155,6 +155,6 @@ export default function Hero() {
       </MyReveal>
 
       <br />
-    </div>
+    </section>
   );
 }

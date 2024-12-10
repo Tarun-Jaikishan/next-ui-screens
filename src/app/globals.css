@@ -9,6 +9,19 @@
   scroll-behavior: smooth;
 }
 
+/* Hide Scroll Bar */
+
+/* For Webkit-based browsers (Chrome, Safari, Opera) */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
 /* Swiper Js Css */
 .swiper-button-next::after,
 .swiper-button-prev::after {

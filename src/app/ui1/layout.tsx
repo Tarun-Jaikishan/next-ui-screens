@@ -6,7 +6,7 @@ type props = {
 
 export default function layout({ children }: props) {
   return (
-    <div>
+    <div className="hide-scrollbar">
       <Navbar />
       {children}
     </div>
