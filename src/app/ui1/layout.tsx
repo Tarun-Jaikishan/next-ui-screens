@@ -1,3 +1,4 @@
+import Footer from "@/components/ui1/Footer";
 import Navbar from "@/components/ui1/Navbar";
 
 type props = {
@@ -9,6 +10,7 @@ export default function layout({ children }: props) {
     <div className="hide-scrollbar">
       <Navbar />
       {children}
+      <Footer />
     </div>
   );
 }
